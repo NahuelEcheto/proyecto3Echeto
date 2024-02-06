@@ -1,0 +1,81 @@
+body {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.formulario {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.detalle-presupuesto {
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.5);
+    box-shadow: 4px 2px 20px lightgray;
+    max-width: 480px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.centrar-elementos {
+    text-align: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, button, select {
+    font-size: large;
+    margin-top: 5px;
+    padding: 8px;
+}
+
+.label-ancho {
+    font-weight: 700;
+    font-size: larger;
+}
+
+.label-alto {
+    font-weight: 500;
+    font-size: larger;
+}
+
+.label-material {
+    font-weight: 700;
+    font-size: larger;
+}
+
+.label-costo-material {
+    font-weight: 700;
+    font-size: larger;
+}
+
+.label-total {
+    font-size: x-large;
+    font-weight: 700;
+    font-size: larger;
+    color: darkred;
+}
+
+
+.notification-div {
+    opacity: 0;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 20px;
+    text-align: justify;
+    background-color: rgba(144, 238, 144, 0.699);
+    box-shadow: 6px 4px 40px lightgray;
+    border-radius: 6px;
+    margin: 0 auto;
+    max-width: 480px;
+    transition: opacity 0.75s ease-in-out;
+}
+
+.transition-div-show {
+    opacity: 1;
+}
